@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".AllServe.AllServeMainFrag">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8AC8FA"
+        app:title="主页"
+        app:titleMarginStart="185dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_serve_type"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            ></androidx.recyclerview.widget.RecyclerView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_serve_type_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></androidx.recyclerview.widget.RecyclerView>
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:name="com.example.smartcityb.AllServe.AllServeGridActivity"-->
+<!--            ></androidx.fragment.app.FragmentContainerView>-->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_add_gruop.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_all_serve_grid.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_bus_add_line.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_bus_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_city_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_ele_free.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_find_work_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_live_payment_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_manege.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_metro_detail.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_metro_total.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_move_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_nav_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_new_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_new_search_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_park_detail.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_park_history.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_park_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_violation_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_violation_record.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/activity_water_free.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/frag_all_server.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/frag_index.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/frag_new.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/frag_user_center.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/frag_wisdom_green.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_auto.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_bus_firts_step.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_bus_four_sept.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_bus_second_step.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_bus_third_sept.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_dashboard.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_deliver_re_cord.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_find_work.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_notifications.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_record.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/fragment_resume.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/freemoule_fargment.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/guide1.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/jiangkang.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/layout_find_house_deliver_record.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/layout_find_house_work_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/listview_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/pingu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/rec_metro_list.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/recyle_city_line_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Android/SmartCity/SmartCityB/app/src/main/res/layout/yanglao_info.xml" value="0.24947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

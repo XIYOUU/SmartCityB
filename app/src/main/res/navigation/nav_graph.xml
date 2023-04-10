@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/indexFrag">
+    <fragment
+        android:id="@+id/indexFrag"
+        android:name="com.example.smartcityb.Index.IndexFrag"
+        android:label="frag_index"
+        tools:layout="@layout/frag_index" >
+        <action
+            android:id="@+id/action_indexFrag_to_allServerFrag"
+            app:destination="@id/allServerFrag" />
+        <action
+            android:id="@+id/action_indexFrag_to_findWorkMainActivity"
+            app:destination="@id/findWorkMainActivity" />
+        <action
+            android:id="@+id/action_indexFrag_to_livePaymentMainActivity"
+            app:destination="@id/livePaymentMainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/allServerFrag"
+        android:name="com.example.smartcityb.AllServe.AllServeMainFrag"
+        android:label="frag_all_server"
+        tools:layout="@layout/frag_all_server" >
+        <action
+            android:id="@+id/action_allServerFrag_to_wisdomGreen"
+            app:destination="@id/wisdomGreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/wisdomGreen"
+        android:name="com.example.smartcityb.WisdomGreen.WisdomGreen"
+        android:label="frag_wisdom_green"
+        tools:layout="@layout/frag_wisdom_green" >
+        <action
+            android:id="@+id/action_wisdomGreen_to_newFrag"
+            app:destination="@id/newFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/newFrag"
+        android:name="com.example.smartcityb.New.NewFrag"
+        android:label="frag_new"
+        tools:layout="@layout/frag_new" >
+        <action
+            android:id="@+id/action_newFrag_to_userCenter"
+            app:destination="@id/userCenter" />
+    </fragment>
+    <fragment
+        android:id="@+id/userCenter"
+        android:name="com.example.smartcityb.UserCenter.UserCenter"
+        android:label="frag_user_center"
+        tools:layout="@layout/frag_user_center" />
+    <activity
+        android:id="@+id/findWorkMainActivity"
+        android:name="com.example.smartcityb.FindWork.FindWorkMainActivity"
+        android:label="activity_find_work_main"
+        tools:layout="@layout/activity_find_work_main" />
+    <activity
+        android:id="@+id/livePaymentMainActivity"
+        android:name="com.example.smartcityb.LivePayment.LivePaymentMainActivity"
+        android:label="activity_live_payment_main"
+        tools:layout="@layout/activity_live_payment_main" />
+</navigation>

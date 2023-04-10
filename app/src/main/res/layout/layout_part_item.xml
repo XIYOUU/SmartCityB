@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/parkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停车场名："
+        ></TextView>
+    <TextView
+        android:id="@+id/vacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="空位数量："
+        ></TextView>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址："
+        ></TextView>
+    <TextView
+        android:id="@+id/rates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="收费费率："
+        ></TextView>
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="距离："
+        ></TextView>
+</LinearLayout>
+</LinearLayout>

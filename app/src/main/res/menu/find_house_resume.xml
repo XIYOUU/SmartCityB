@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/findWorkFragment"
+        android:title="查询"
+        ></item>
+    <item
+        android:id="@+id/deliverReCordFragment"
+        android:title="新增"
+        ></item>
+    <item
+        android:id="@+id/resumeFragment"
+        android:title="编辑"
+        ></item>
+</menu>

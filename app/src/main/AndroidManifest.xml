@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcityb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="智慧城市"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartCityB"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".city.MetroTotalActivity"></activity>
+        <activity android:name=".city.MetroDetailActivity" />
+        <activity android:name=".city.CityMainActivity" />
+        <activity android:name=".violation.ViolationRecordActivity" />
+        <activity android:name=".violation.ViolationMainActivity" />
+        <activity android:name=".bus.BusAddLineActivity" />
+        <activity android:name=".bus.BusMainActivity" />
+        <activity android:name=".move.MoveMainActivity" />
+        <activity android:name=".park.ParkHistoryActivity" />
+        <activity android:name=".park.ParkDetailActivity" />
+        <activity android:name=".park.ParkMainActivity" />
+        <activity android:name=".LivePayment.AddGroupActivity" />
+        <activity android:name=".LivePayment.ManegeActivity" />
+        <activity android:name=".LivePayment.EleFreeActivity" />
+        <activity android:name=".LivePayment.WaterFreeActivity" />
+        <activity android:name=".Index.NewSearchListActivity" />
+        <activity android:name=".Index.NewListActivity" />
+        <activity android:name=".LivePayment.LivePaymentMainActivity" />
+        <activity android:name="freemodlue.PinguActivity"/>
+        <activity android:name="freemodlue.HuanJIng"/>
+        <activity android:name="freemodlue.Info"/>
+        <activity android:name="freemodlue.JianKangActivity"/>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="智慧城市" />
+        <activity
+            android:name=".NavMainActivity"
+            android:label="@string/title_activity_nav_main" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="智慧评估"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:background="#C5C5C5"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="精神状态:"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/zhengchang1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="正常"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/chidai"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="痴呆"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/yiyu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="抑郁"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/baoli"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="暴力"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="活动能力:"
+            android:textSize="18sp" />
+        <RadioGroup
+            android:id="@+id/huodong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/zhenchang2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="正常"
+                android:textSize="18sp"/>
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/zhuguai"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="拄拐"
+                android:textSize="18sp"/>
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/lunyi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="轮椅"
+                android:textSize="18sp"/>
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:id="@+id/wochuang"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="卧床"
+                android:textSize="18sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="生活能力:"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/yinshi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="饮食"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/xizhao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="洗澡"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/chuanyi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="穿衣"
+            android:textSize="18sp"/>
+        <CheckBox
+            android:layout_marginLeft="10dp"
+            android:id="@+id/xiushi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="修饰"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingRight="20dp">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:text="预计配套服务"
+        android:textSize="18sp" />
+        <TextView
+            android:id="@+id/fuwu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:layout_marginLeft="20dp"
+            android:text="暂无"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="预计需要费用(元):"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/feiyong"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

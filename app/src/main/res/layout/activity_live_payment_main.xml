@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LivePayment.LivePaymentMainActivity">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#76BBF3"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="当前城市：北京"
+            android:gravity="center"
+            ></TextView>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="生活缴费"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            ></TextView>
+        <ImageView
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:layout_alignParentRight="true"
+            ></ImageView>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/Btn_auto"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="自动缴费"
+            android:layout_width="0dp"></Button>
+        <Button
+            android:id="@+id/btn_manege"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="户号管理"
+            android:layout_toRightOf="@+id/Btn_auto"
+            android:layout_height="match_parent"></Button>
+    </LinearLayout>
+</LinearLayout>

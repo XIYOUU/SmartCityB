@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/find_house_nav"
+    app:startDestination="@id/findWorkFragment">
+
+    <fragment
+        android:id="@+id/findWorkFragment"
+        android:name="com.example.smartcityb.FindWork.FindWorkFragment"
+        android:label="fragment_find_work"
+        tools:layout="@layout/fragment_find_work" >
+        <action
+            android:id="@+id/action_findWorkFragment_to_deliverReCordFragment"
+            app:destination="@id/deliverReCordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/deliverReCordFragment"
+        android:name="com.example.smartcityb.FindWork.DeliverReCordFragment"
+        android:label="fragment_deliver_re_cord"
+        tools:layout="@layout/fragment_deliver_re_cord" >
+        <action
+            android:id="@+id/action_deliverReCordFragment_to_resumeFragment"
+            app:destination="@id/resumeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resumeFragment"
+        android:name="com.example.smartcityb.FindWork.ResumeFragment"
+        android:label="fragment_resume"
+        tools:layout="@layout/fragment_resume" />
+</navigation>

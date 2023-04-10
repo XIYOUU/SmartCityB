@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LivePayment.EleFreeActivity">
+
+<!--    //缴费单位、缴费户号、户名、住址信息当前可余额、当前欠费余额等-->
+    <LinearLayout
+        android:background="#61AEEC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/quit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="电费"
+            android:textSize="30dp"
+            android:gravity="center"
+            ></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chargeUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="缴费单位："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/paymentNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="缴费户号："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/ownerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="户名："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="住址信息："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="当前可余额："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/debalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="当前欠费余额："
+        android:layout_marginTop="20dp"
+        ></TextView>
+
+</LinearLayout>

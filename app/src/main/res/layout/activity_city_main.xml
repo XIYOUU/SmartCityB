@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".city.CityMainActivity">
+
+
+    <RelativeLayout
+        android:background="#61AEEC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/quit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="城市地铁"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/quit"
+            ></TextView>
+        <ImageView
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/all"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            ></ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前位置：北京建国门"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所有路线"
+        ></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FindWork.FindWorkFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8AC8FA"
+        app:navigationIcon="@drawable/back"
+        app:title="找工作"
+        >
+    </androidx.appcompat.widget.Toolbar>
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        ></com.youth.banner.Banner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门职位"
+        ></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_hot_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="职位列表"
+        ></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_work_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
